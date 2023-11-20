@@ -2,80 +2,85 @@ import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import { FaPinterest } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa6";
+
 
 export const products = [
     {
         id: 1,
         image: '/images/bags/p1.jpeg',
-        tittle: "Jute Gift Bag",
-        discription: 'This Printed Jute Bag is spacious and they are useful. You can carry all your essentials like books, wallet, & other things in them.'
+        tittle: "Customized New Jute Bags",
+        // discription: 'This Printed Jute Bag is spacious and they are useful. You can carry all your essentials like books, wallet, & other things in them.'
     },
     {
         id: 2,
         image: '/images/bags/p2.jpeg',
-        tittle: "JUCO Git Bag",
-        discription: 'Eco-Friendly JUCO Gift Bag is our biggest standard bag. Designed for branding international companies.'
+        tittle: "New Jute Bags For Export Only",
+        // discription: 'Eco-Friendly JUCO Gift Bag is our biggest standard bag. Designed for branding international companies.'
     },
     {
         id: 3,
         image: '/images/bags/p3.jpeg',
-        tittle: "Jute Flag Bag",
-        discription: 'Flag Jute Bag is Reusable, Biodegradable and 100% Eco Friendly, Organic and Carbon free. Ethically produced by Universe Jute.'
+        tittle: "Binola Three Blue stripes",
+        // discription: 'Flag Jute Bag is Reusable, Biodegradable and 100% Eco Friendly, Organic and Carbon free. Ethically produced by Universe Jute.'
     },
     {
         id: 4,
         image: '/images/bags/p4.jpeg',
-        tittle: "Animal Printed Bags",
-        discription: 'We are a professional wholesale Jute Bags manufacturer, jute bag supplier and exporter, which can custom jute bags, custom jute tote bags and Creation Jute Bag.'
+        tittle: "Promotional Printed Jute Bags",
+        // discription: 'We are a professional wholesale Jute Bags manufacturer, jute bag supplier and exporter, which can custom jute bags, custom jute tote bags and Creation Jute Bag.'
     },
     {
         id: 5,
         image: '/images/bags/p5.jpeg',
-        tittle: "Zebra Printed Bag",
-        discription: 'Many of our imprint-able Creative Jute Bag comes in many styles shapes for gusset bags Colored bags. Custom print is our specialty. Ethically produced by Universe Jute.'
+        tittle: "Jute Shopping Bag",
+        // discription: 'Many of our imprint-able Creative Jute Bag comes in many styles shapes for gusset bags Colored bags. Custom print is our specialty. Ethically produced by Universe Jute.'
     },
     {
         id: 6,
         image: '/images/bags/p6.jpeg',
-        tittle: "Cute Gift Bag",
-        discription: 'Biodegradable Printed Jute Bags are our biggest standard bag. Our Printed Jute Bags is Reusable, Biodegradable and 100% Eco Friendly, Organic, and Carbon free.'
+        tittle: "Tote Shopping Bags",
+        // discription: 'Biodegradable Printed Jute Bags are our biggest standard bag. Our Printed Jute Bags is Reusable, Biodegradable and 100% Eco Friendly, Organic, and Carbon free.'
     },
     {
         id: 7,
         image: '/images/bags/p7.jpeg',
-        tittle: "Cute Gift Bag",
-        discription: 'Biodegradable Printed Jute Bags are our biggest standard bag. Our Printed Jute Bags is Reusable, Biodegradable and 100% Eco Friendly, Organic, and Carbon free.'
+        tittle: "Customized Shopping Bags",
+        // discription: 'Biodegradable Printed Jute Bags are our biggest standard bag. Our Printed Jute Bags is Reusable, Biodegradable and 100% Eco Friendly, Organic, and Carbon free.'
     },
     {
         id: 8,
         image: '/images/bags/p8.jpeg',
-        tittle: "Cute Gift Bag",
-        discription: 'Biodegradable Printed Jute Bags are our biggest standard bag. Our Printed Jute Bags is Reusable, Biodegradable and 100% Eco Friendly, Organic, and Carbon free.'
+        tittle: "Jute Water Bottle Bag for office",
+        discription: `Material :- Jute,
+        Color :- Beige, 
+        Size:- 15 X 6 X 5 Inches,
+        Type:- Carry Bag,
+        Uses:- Bottle Bag, Carry Bag (Reusable)`
     },
     {
         id: 9,
         image: '/images/bags/p9.jpeg',
-        tittle: "Cute Gift Bag",
-        discription: 'Biodegradable Printed Jute Bags are our biggest standard bag. Our Printed Jute Bags is Reusable, Biodegradable and 100% Eco Friendly, Organic, and Carbon free.'
+        tittle: "Lunch Bag For Office",
+        // discription: 'Biodegradable Printed Jute Bags are our biggest standard bag. Our Printed Jute Bags is Reusable, Biodegradable and 100% Eco Friendly, Organic, and Carbon free.'
     },
     {
         id: 10,
         image: '/images/bags/p10.jpeg',
-        tittle: "Cute Gift Bag",
-        discription: 'Biodegradable Printed Jute Bags are our biggest standard bag. Our Printed Jute Bags is Reusable, Biodegradable and 100% Eco Friendly, Organic, and Carbon free.'
+        tittle: "Hessian Cloth",
+        // discription: 'Biodegradable Printed Jute Bags are our biggest standard bag. Our Printed Jute Bags is Reusable, Biodegradable and 100% Eco Friendly, Organic, and Carbon free.'
     },
     {
         id: 11,
         image: '/images/bags/p11.jpeg',
-        tittle: "Cute Gift Bag",
-        discription: 'Biodegradable Printed Jute Bags are our biggest standard bag. Our Printed Jute Bags is Reusable, Biodegradable and 100% Eco Friendly, Organic, and Carbon free.'
+        tittle: "Hessian Fabric",
+        // discription: 'Biodegradable Printed Jute Bags are our biggest standard bag. Our Printed Jute Bags is Reusable, Biodegradable and 100% Eco Friendly, Organic, and Carbon free.'
     },
     {
         id: 12,
         image: '/images/bags/p12.jpeg',
-        tittle: "Cute Gift Bag",
-        discription: 'Biodegradable Printed Jute Bags are our biggest standard bag. Our Printed Jute Bags is Reusable, Biodegradable and 100% Eco Friendly, Organic, and Carbon free.'
+        tittle: "Food Grade Hessian Cloth",
+        // discription: 'Biodegradable Printed Jute Bags are our biggest standard bag. Our Printed Jute Bags is Reusable, Biodegradable and 100% Eco Friendly, Organic, and Carbon free.'
     },
 ]
 
@@ -115,7 +120,7 @@ export const Service = [
         id: 1,
         image: '/images/sgs.jpeg',
         tittle: "Quality Control",
-        discription: 'Pre-shipment inspection by SGS to confirm goods quality and quantity',
+        discription: 'Pre-shipment inspection by SGS to confirm Goods Quality and Quantity',
         border: 0
     }
 ]
@@ -284,21 +289,24 @@ export const icon = [
     {
         id: 1,
         icons: <FaFacebook color="3b5998" size={30} />,
+        link: 'https://www.facebook.com/universejute'
     },
-    {
-        id: 2,
-        icons: <FaTwitter color="00aced" size={30} />,
-    },
+    // {
+    //     id: 2,
+    //     icons: <FaTwitter color="00aced" size={30} />,
+    // },
     {
         id: 3,
         icons: <BsInstagram color="8e44ad" size={30} />,
+        link: 'https://instagram.com/universejute'
     },
     {
         id: 4,
-        icons: <FaPinterest color="cb2027" size={30} />,
+        icons: <FaWhatsapp color="057e23" size={30} />,
+        link: 'https://wa.me/+8801819146823'
     },
-    {
-        id: 5,
-        icons: <FaYoutube color="b00" size={30} />,
-    },
+    //     {
+    //         id: 5,
+    //         icons: <FaYoutube color="b00" size={30} />,
+    //     },
 ]

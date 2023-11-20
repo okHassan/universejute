@@ -8,7 +8,7 @@ const Services = () => {
             <div className='space-y-10'>
                 <div  className=''>
                     <p className='text-center tracking-[1.7em] pb-2'>FOCUS ON</p>
-                    <h1 className='product-heading pb-4'>Our Services</h1>
+                    {/* <h1 className='product-heading pb-4'>Our Services</h1> */}
                 </div>
                 <div className='h-[400px] flex justify-center items-center flex-wrap gap-12'>
                     {

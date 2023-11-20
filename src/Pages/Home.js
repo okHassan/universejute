@@ -31,7 +31,7 @@ const Home = () => {
             {/* <SiteSec /> */}
             <Shipment />
             <Plan />
-            <Query />
+            {/* <Query /> */}
             <Map />
             <Link />
             <Footer />

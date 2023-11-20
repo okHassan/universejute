@@ -17,7 +17,7 @@ const Nav = () => {
                 <div className='h-full flex justify-between items-center'>
                     <div className='relative z-50 flex items-center gap-4'>
                         <img src='/logo.png' alt='Universe-Jute' className='w-14 h-14 bg-cover bg-center rounded-full rotatex' />
-                        <p className='logo text-[18px] sm:text-[20px]'>Universe Jute Fiber and Bag Corporation</p>
+                        <p className='logo text-[18px] sm:text-[26px]'>Universe Jute Fiber and Bag Corporation</p>
                     </div>
                     <div className=''>
                         <ul className='hidden gap-12 lg:flex'>

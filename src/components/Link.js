@@ -18,7 +18,7 @@ const Link = () => {
                         {
                             icon.map((item) => (
                                 <div key={item.id} className='w-[65px] h-[65px] rounded-full bg-white flex justify-center items-center'>
-                                    <a href='https://google.com'>{item.icons}</a>
+                                    <a href={item.link} target='_blank'>{item.icons}</a>
                                 </div>
                             ))
                         }

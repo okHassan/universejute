@@ -8,7 +8,7 @@ const Hero = () => {
     const bg = '/images/jute1.jpg';
 
     const slidBG = [
-        '/images/slider/slid1.jpg',
+        // '/images/slider/slid1.jpg',
         '/images/slider/slid2.jpeg',
         '/images/slider/slid3.jpeg',
         '/images/slider/slid4.jpeg',
