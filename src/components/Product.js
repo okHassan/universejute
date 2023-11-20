@@ -26,7 +26,19 @@ const Product = () => {
                                                     <img alt="content" className="object-center object-contain h-full w-full" src={item.image} />
                                                 </div>
                                                 <h2 className="text-xl font-medium title-font text-gray-900 mt-5">{item.tittle}</h2>
-                                                <p className="text-base leading-relaxed mt-2">{item.discription}</p>
+                                                <p className="text-base leading-relaxed mt-2">
+                                                    {
+                                                        item.id === 12 ? <React.Fragment>
+                                                            <p>
+                                                                Material :- Jute, <br />
+                                                                Color :- Beige, <br />
+                                                                Size:- 15 X 6 X 5 Inches, <br />
+                                                                Type:- Carry Bag, <br />
+                                                                Uses:- Bottle Bag, Carry Bag (Reusable)
+                                                            </p>
+                                                        </React.Fragment> : item.discription
+                                                    }
+                                                </p>
                                                 <Link to='/product' className="text-indigo-500 inline-flex items-center mt-3 cursor-pointer">Learn More
                                                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                                         <path d="M5 12h14M12 5l7 7-7 7"></path>

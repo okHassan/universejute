@@ -1,14 +1,16 @@
 import React from 'react'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
-import Map from '../components/Map'
+import ContactF from '../components/ContactF'
+import ContectUS from '../components/ContectUS'
 
 const Contact = () => {
     return (
         <React.Fragment>
             <Nav />
             <div className='pt-14'>
-                <Map />
+                <ContectUS />
+                <ContactF /> 
             </div>
             <Footer />
         </React.Fragment>

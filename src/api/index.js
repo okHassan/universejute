@@ -1,7 +1,7 @@
 import { FaFacebook } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
+
 import { BsInstagram } from "react-icons/bs";
-import { FaPinterest } from "react-icons/fa";
+
 import { FaWhatsapp } from "react-icons/fa6";
 
 
@@ -9,110 +9,96 @@ export const products = [
     {
         id: 1,
         image: '/images/bags/p1.jpeg',
-        tittle: "Customized New Jute Bags",
-        // discription: 'This Printed Jute Bag is spacious and they are useful. You can carry all your essentials like books, wallet, & other things in them.'
+        tittle: "Binola Three Blue stripes",
+        discription: `Food Grade (As per IJO 98/01 Standard New jute bag size: 44''x26.5'', WT 2.00 Lbs/Bag, 6x7 porter & shot,
+        hammed, Herackle sewm, Three blue stripes.`
     },
     {
         id: 2,
         image: '/images/bags/p2.jpeg',
         tittle: "New Jute Bags For Export Only",
-        // discription: 'Eco-Friendly JUCO Gift Bag is our biggest standard bag. Designed for branding international companies.'
+        discription: `Food Grade (As per IJO 98/01 Standard New jute bag size: 44''x26.5'', WT 2.00 Lbs/Bag, 6x7 porter & shot,
+        hammed, Herackle sewm.`
     },
     {
         id: 3,
         image: '/images/bags/p3.jpeg',
         tittle: "Binola Three Blue stripes",
-        // discription: 'Flag Jute Bag is Reusable, Biodegradable and 100% Eco Friendly, Organic and Carbon free. Ethically produced by Universe Jute.'
+        discription: `Food Grade (As per IJO 98/01 Standard New jute bag size: 44''x26.5'', WT 2.00 Lbs/Bag, 6x7 porter & shot,
+        hammed, Herackle sewm, Three blue stripes.`
     },
     {
         id: 4,
         image: '/images/bags/p4.jpeg',
-        tittle: "Promotional Printed Jute Bags",
-        // discription: 'We are a professional wholesale Jute Bags manufacturer, jute bag supplier and exporter, which can custom jute bags, custom jute tote bags and Creation Jute Bag.'
+        tittle: "Plain New Jute Bag",
+        discription: `Food Grade (As per IJO 98/01 Standard New jute bag size: 44''x26.5'', WT 2.00 Lbs/Bag, 6x7 porter & shot,
+        hammed, Herackle sewm, Plain.`
     },
     {
         id: 5,
         image: '/images/bags/p5.jpeg',
-        tittle: "Jute Shopping Bag",
-        // discription: 'Many of our imprint-able Creative Jute Bag comes in many styles shapes for gusset bags Colored bags. Custom print is our specialty. Ethically produced by Universe Jute.'
+        tittle: "Customized Printed New Jute Bags",
     },
     {
         id: 6,
         image: '/images/bags/p6.jpeg',
-        tittle: "Tote Shopping Bags",
-        // discription: 'Biodegradable Printed Jute Bags are our biggest standard bag. Our Printed Jute Bags is Reusable, Biodegradable and 100% Eco Friendly, Organic, and Carbon free.'
+        tittle: "Customized Printed new Jute Bag for Coffee",
     },
     {
         id: 7,
         image: '/images/bags/p7.jpeg',
-        tittle: "Customized Shopping Bags",
-        // discription: 'Biodegradable Printed Jute Bags are our biggest standard bag. Our Printed Jute Bags is Reusable, Biodegradable and 100% Eco Friendly, Organic, and Carbon free.'
+        // tittle: "Customized Shopping Bags",
+        tittle: "Promotional Customized Printed Jute Bags",
     },
     {
         id: 8,
         image: '/images/bags/p8.jpeg',
-        tittle: "Jute Water Bottle Bag for office",
-        discription: `Material :- Jute,
-        Color :- Beige, 
-        Size:- 15 X 6 X 5 Inches,
-        Type:- Carry Bag,
-        Uses:- Bottle Bag, Carry Bag (Reusable)`
+        tittle: "Comfortable Jute Shopping Bag",
     },
     {
         id: 9,
         image: '/images/bags/p9.jpeg',
-        tittle: "Lunch Bag For Office",
-        // discription: 'Biodegradable Printed Jute Bags are our biggest standard bag. Our Printed Jute Bags is Reusable, Biodegradable and 100% Eco Friendly, Organic, and Carbon free.'
+        // tittle: "Lunch Bag For Office",
+        tittle: "Tote Shopping Bags",
     },
     {
         id: 10,
         image: '/images/bags/p10.jpeg',
-        tittle: "Hessian Cloth",
-        // discription: 'Biodegradable Printed Jute Bags are our biggest standard bag. Our Printed Jute Bags is Reusable, Biodegradable and 100% Eco Friendly, Organic, and Carbon free.'
+        tittle: "Customized Printed Shopping Bag",
     },
     {
         id: 11,
         image: '/images/bags/p11.jpeg',
-        tittle: "Hessian Fabric",
-        // discription: 'Biodegradable Printed Jute Bags are our biggest standard bag. Our Printed Jute Bags is Reusable, Biodegradable and 100% Eco Friendly, Organic, and Carbon free.'
+        tittle: "Handy Shopping Bags",
     },
     {
         id: 12,
         image: '/images/bags/p12.jpeg',
+        tittle: "Jute Water Bottle Bag for office",
+    },
+    {
+        id: 13,
+        image: '/images/bags/p13.jpeg',
+        tittle: "Hessian Cloth",
+    },
+    {
+        id: 14,
+        image: '/images/bags/p14.jpeg',
+        tittle: "Hessian Fabric",
+    },
+    {
+        id: 15,
+        image: '/images/bags/p15.jpeg',
         tittle: "Food Grade Hessian Cloth",
-        // discription: 'Biodegradable Printed Jute Bags are our biggest standard bag. Our Printed Jute Bags is Reusable, Biodegradable and 100% Eco Friendly, Organic, and Carbon free.'
+    },
+    {
+        id: 16,
+        image: '/images/bags/p16.webp',
+        tittle: "Cute Jute pouch Bag",
     },
 ]
 
 
-
-export const MessengerBags = [
-    {
-        id: 1,
-        image: '/images/mbags/mbag-1.jpg',
-        tittle: "Jute Seminar Bag",
-        code: 1111
-    },
-    {
-        id: 2,
-        image: '/images/mbags/mbag-2.jpg',
-        tittle: "Jute Conference Bag",
-        code: 1122
-    },
-    {
-        id: 3,
-        image: '/images/mbags/mbag-3.jpg',
-        tittle: "Jute Corporate Bag",
-        code: 1133
-    },
-    {
-        id: 4,
-        image: '/images/mbags/mbag-4.jpg',
-        tittle: "Premium Jute Handbag",
-        code: 1144
-    },
-
-]
 
 
 export const Service = [
@@ -124,31 +110,6 @@ export const Service = [
         border: 0
     }
 ]
-
-
-export const category = [
-    {
-        id: 1,
-        image: '/images/categories/img-1.jpg',
-        tittle: 'JUCO Bags'
-    },
-    {
-        id: 2,
-        image: '/images/categories/img-2.jpg',
-        tittle: 'Jute Yarn'
-    },
-    {
-        id: 3,
-        image: '/images/categories/img-3.jpg',
-        tittle: 'Jute Bag'
-    },
-    {
-        id: 4,
-        image: '/images/categories/img-4.jpg',
-        tittle: 'Burlap Sack'
-    },
-]
-
 
 
 export const gellary = [
@@ -287,6 +248,11 @@ export const gellary = [
 
 export const icon = [
     {
+        id: 4,
+        icons: <FaWhatsapp color="057e23" size={30} />,
+        link: 'https://wa.me/+8801819146823'
+    },
+    {
         id: 1,
         icons: <FaFacebook color="3b5998" size={30} />,
         link: 'https://www.facebook.com/universejute'
@@ -299,11 +265,6 @@ export const icon = [
         id: 3,
         icons: <BsInstagram color="8e44ad" size={30} />,
         link: 'https://instagram.com/universejute'
-    },
-    {
-        id: 4,
-        icons: <FaWhatsapp color="057e23" size={30} />,
-        link: 'https://wa.me/+8801819146823'
     },
     //     {
     //         id: 5,

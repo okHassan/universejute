@@ -8,7 +8,7 @@ const Hero = () => {
     const bg = '/images/jute1.jpg';
 
     const slidBG = [
-        // '/images/slider/slid1.jpg',
+        '/images/slider/slid1.jpeg',
         '/images/slider/slid2.jpeg',
         '/images/slider/slid3.jpeg',
         '/images/slider/slid4.jpeg',
@@ -68,8 +68,8 @@ const Hero = () => {
                             <p className='hero-bottom-text pt-5 text-[20px] sm:text-[28px]'>We believe in Quality not Quantity</p>
                         </div>
                         <div className='flex gap-8 pt-5 flex-wrap justify-center'>
-                            <Link to='/product' className='button cursor-pointer'>Jute Sack</Link>
                             <Link to='/product' className='button cursor-pointer'>Jute Bags</Link>
+                            <Link to='/product' className='button cursor-pointer'>Shopping Bags </Link>
                             <Link to='/product' className='button cursor-pointer'>Hessian Cloth</Link>
                         </div>
                     </div>
