@@ -1,30 +1,8 @@
 import React from 'react'
-import { trend } from '../api'
 
 const Footer = () => {
     return (
         <React.Fragment>
-            <div className='w-full h-[160px] bg-[#12373a] hidden lg:block'>
-                <div className='container mx-auto'>
-                    <div className='space-y-4'>
-                        <div className='pt-7'>
-                            <p className='text-white'>Trending Jute Bag</p>
-                        </div>
-                        <div className='flex justify-between flex-wrap'>
-                            {
-                                trend.map((item) => (
-                                    <div key={item.id} className='flex gap-5 items-center'>
-                                        <img src={item.image} alt={item.tittle} className='w-[60px] h-[60px] rounded-full' />
-                                        <div>
-                                            <p className='text-green-200'>{item.tittle}</p>
-                                        </div>
-                                    </div>
-                                ))
-                            }
-                        </div>
-                    </div>
-                </div>
-            </div>
             <footer class="text-gray-600 body-font bg-[#1f4144] border-t border-[#477175]">
                 <div class="container px-5 py-24 mx-auto">
                     <div class="flex flex-wrap md:text-left text-center justify-around -mb-10 -mx-4">

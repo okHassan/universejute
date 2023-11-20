@@ -22,10 +22,10 @@ const Home = () => {
             <Nav />
             <Hero />
             <SubHero />
-            <SimpleStory />
+            {/* <SimpleStory /> */}
             <Product />
             {/* <MessangerBag /> */}
-            <Category />
+            {/* <Category /> */}
             <Gellary />
             <Services />
             {/* <SiteSec /> */}

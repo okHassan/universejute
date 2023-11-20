@@ -59,6 +59,24 @@ export const products = [
         tittle: "Cute Gift Bag",
         discription: 'Biodegradable Printed Jute Bags are our biggest standard bag. Our Printed Jute Bags is Reusable, Biodegradable and 100% Eco Friendly, Organic, and Carbon free.'
     },
+    {
+        id: 10,
+        image: '/images/bags/p10.jpeg',
+        tittle: "Cute Gift Bag",
+        discription: 'Biodegradable Printed Jute Bags are our biggest standard bag. Our Printed Jute Bags is Reusable, Biodegradable and 100% Eco Friendly, Organic, and Carbon free.'
+    },
+    {
+        id: 11,
+        image: '/images/bags/p11.jpeg',
+        tittle: "Cute Gift Bag",
+        discription: 'Biodegradable Printed Jute Bags are our biggest standard bag. Our Printed Jute Bags is Reusable, Biodegradable and 100% Eco Friendly, Organic, and Carbon free.'
+    },
+    {
+        id: 12,
+        image: '/images/bags/p12.jpeg',
+        tittle: "Cute Gift Bag",
+        discription: 'Biodegradable Printed Jute Bags are our biggest standard bag. Our Printed Jute Bags is Reusable, Biodegradable and 100% Eco Friendly, Organic, and Carbon free.'
+    },
 ]
 
 
@@ -95,32 +113,11 @@ export const MessengerBags = [
 export const Service = [
     {
         id: 1,
-        image: '/images/Services/service-1.jpg',
-        tittle: "Order Execution",
-        discription: 'Orders are closely monitored from sampling to shipment. Status on sampling, production and shipment are transmitted to buyers regularly.',
-        border: 1
-    },
-    {
-        id: 2,
-        image: '/images/Services/service-2.jpg',
+        image: '/images/sgs.jpeg',
         tittle: "Quality Control",
-        discription: 'Pre Shipment Inspection (PSI) / Final Random Inspection (FRI) is carried out when the total consignment is packed and ready for shipment.',
+        discription: 'Pre-shipment inspection by SGS to confirm goods quality and quantity',
         border: 0
-    },
-    {
-        id: 3,
-        image: '/images/Services/service-3.jpg',
-        tittle: "EXP Proceeds",
-        discription: 'Shipping documents are checked as per the buyer’s instruction and the copy documents are sent to the buyers well in advance of the shipment to avoid any discrepancy.',
-        border: 0
-    },
-    {
-        id: 4,
-        image: '/images/Services/service-4.jpg',
-        tittle: "Buyer Visit",
-        discription: 'We accompany our buyers on their buying visits, factory visits and inspection visits. We help them with and arrange their itinerary and accommodation on their visits.',
-        border: 1
-    },
+    }
 ]
 
 
@@ -144,29 +141,6 @@ export const category = [
         id: 4,
         image: '/images/categories/img-4.jpg',
         tittle: 'Burlap Sack'
-    },
-]
-
-export const trend = [
-    {
-        id: 1,
-        image: '/images/trand/img-1.jpg',
-        tittle: '80221 | Jute File Folder'
-    },
-    {
-        id: 2,
-        image: '/images/trand/img-2.jpg',
-        tittle: '6715 | Jute Gift Bag'
-    },
-    {
-        id: 3,
-        image: '/images/trand/img-1.jpg',
-        tittle: '7112 | Zebra Printed'
-    },
-    {
-        id: 4,
-        image: '/images/trand/img-1.jpg',
-        tittle: '6714 | Popular Jute Bags'
     },
 ]
 
@@ -294,12 +268,12 @@ export const gellary = [
         height: 1
     },
     {
-        src: "/images/gellary/g-25.jpg",
+        src: "/images/gellary/g-25.jpeg",
         width: 1,
         height: 1
     },
     {
-        src: "/images/gellary/g-26.jpg",
+        src: "/images/gellary/g-26.jpeg",
         width: 1,
         height: 1
     },
