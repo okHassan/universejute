@@ -16,7 +16,7 @@ const Hero = () => {
         '/images/slider/slid6.jpeg',
     ]
 
-    const delay = 2000;
+    const delay = 4000;
 
     const [index, setIndex] = React.useState(0);
     const timeoutRef = React.useRef(null);
