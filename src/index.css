@@ -359,6 +359,7 @@ body {
     font-style: italic;
     font-size: 18px;
     line-height: 35px;
+    text-wrap: wrap;
 }
 .times-new-roman-hessian {
     font-family: 'Tinos', serif;
@@ -366,4 +367,5 @@ body {
     font-style: italic;
     font-size: 22px;
     line-height: 35px;
+    text-wrap: wrap;
 }

@@ -29,7 +29,7 @@ const Product = () => {
                     <div className='mt-14'>
                         <div className='mb-10'>
                             <h1 className='product-heading-sub-heading'>Some common specification of Bags:</h1>
-                            <div className='flex flex-col flex-wrap gap-y-8 pt-5 w-[615px] mx-auto'>
+                            <div className='px-10 md:px-0 flex flex-col flex-wrap gap-y-8 pt-5 md:w-[615px] mx-auto'>
                             {
                                 textArray.map((text, n) => (
                                     <p className='times-new-roman' key={n}>
@@ -42,7 +42,7 @@ const Product = () => {
                         </div>
                         <div className='mb-20'>
                             <h1 className='product-heading-sub-heading'>Some common specification of Hessian Cloth: </h1>
-                            <div className='flex flex-col flex-wrap gap-y-8 pt-5 w-[615px] mx-auto'>
+                            <div className='px-10 md:px-0 flex flex-col flex-wrap gap-y-8 pt-5 md:w-[615px] mx-auto'>
                             {
                                 textArrayHessian.map((text, n) => (
                                     <p className='times-new-roman-hessian' key={n}>

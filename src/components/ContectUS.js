@@ -8,10 +8,9 @@ const ContectUS = () => {
                 <div className='space-y-5 mx-5'>
                     <div>
                         <h1 className='contact-heading pb-16'>Contact US</h1>
-                        {/* <h1 className='product-heading pb-4'>Let's get in touch</h1> */}
                     </div>
-                    <div className='w-full border h-[200px] shadow-md rounded-xl space-y-6 flex justify-around'>
-                        <div className='h-[200px] flex flex-col justify-center'>
+                    <div className='w-full border pt-10 md:pt-0 pl-4 md:pl-0 md:h-[200px] shadow-md rounded-xl space-y-6 md:flex justify-around'>
+                        <div className='h-[200px] flex flex-col justify-center gap-y-4 md:gap-y-0'>
                             <h1 className='flex items-center gap-3'><span className='text-2xl text-slate-700'>E-mail:</span> <span>unibd@citechco.net</span></h1>
                             <h1 className='flex items-center gap-3'><span className='text-2xl text-slate-700'>WhatsApp: </span><span> +880 1819146823</span></h1>
                             <h1 className='flex items-center gap-3'><span className='text-2xl text-slate-700'>Address:</span> <span>59,  Motijheel Commercial Area, Ground Floor, Dhaka-1000, Bangladesh</span></h1>
