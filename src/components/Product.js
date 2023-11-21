@@ -5,13 +5,57 @@ import Fade from 'react-reveal/Fade';
 
 
 const Product = () => {
+
+    const textArray = [
+        'Food grade (As per IJO 98/01 Standard) new jute bag size 44" x 26.5 ", weight: 2.25 Lbs (1020 gram), 6x8 porter & shot, hemmed at mouth, herackle sewn  packing 300 pcs/ bale',
+        'Food grade (As per IJO 98/01 Standard) new jute bag size 44" x 26.5 ", weight: 2.00 Lbs (907 gram), 6x7 porter & shot, hemmed at mouth, herackle sewn  packing 300 pcs/ bale',
+        'Food grade (As per IJO 98/01 Standard) new jute bag size 38" x 26.5 ", weight: 1.74 Lbs (789 gram), 6x7 porter & shot, hemmed at mouth, herackle sewn  packing 300 pcs/ bale',
+        'Food grade (As per IJO 98/01 Standard) new jute bag size 40" x 26.5 ", weight: 1.81 Lbs (825 gram), 6x7 porter & shot, hemmed at mouth, herackle sewn  packing 300 pcs/ bale',
+        'Food grade (As per IJO 98/01 Standard) new jute bag size 40" x 28 ", weight: 740 gram, 8x8 porter & shot, hemmed at mouth, herackle sewn  packing 300 pcs/ bale',
+        'Food grade (As per IJO 98/01 Standard) new jute bag size 40" x 28 ", weight: 464 gram, 11x12 porter & shot, hemmed at mouth, herackle sewn  packing 1000 pcs/ bale'
+    ]
+
+    const textArrayHessian = [
+        'New Hessian cloth 40-10, Oz/40”, 11x12 porter & shot, plain',
+        'New Hessian cloth 40-7oz/40”, 9x8 porter & shot, plain',
+        'New Hessian cloth 45-11oz/45”, 11x12 porter & shot, plain',
+        'New Hessian cloth 45-9oz/45”, 9x10 porter & shot, plain',
+    ]
+
     return (
         <div className='bg-white w-full h-auto'>
             <div className='container mx-auto'>
                 <div className='flex flex-col gap-10'>
                     <div className='mt-14'>
+                        <div className='mb-10'>
+                            <h1 className='product-heading-sub-heading'>Some common specification of Bags:</h1>
+                            <div className='flex flex-col flex-wrap gap-y-8 pt-5 w-[615px] mx-auto'>
+                            {
+                                textArray.map((text, n) => (
+                                    <p className='times-new-roman' key={n}>
+                                        <span className='text-4xl px-3'>#</span>
+                                        <span>{text}</span>
+                                    </p>
+                                ))
+                            }
+                            </div>
+                        </div>
+                        <div className='mb-20'>
+                            <h1 className='product-heading-sub-heading'>Some common specification of Hessian Cloth: </h1>
+                            <div className='flex flex-col flex-wrap gap-y-8 pt-5 w-[615px] mx-auto'>
+                            {
+                                textArrayHessian.map((text, n) => (
+                                    <p className='times-new-roman-hessian' key={n}>
+                                        <span className='text-4xl px-3'>#</span>
+                                        <span>{text}</span>
+                                    </p>
+                                ))
+                            }
+                            </div>
+                        </div>
+
                         <h1 className='product-heading'>Jute Bags</h1>
-                        <p className='text-center pt-7'>Our Best Sell Products</p>
+                        <p className='text-center pt-7'>Our Best Selling Products</p>
                     </div>
 
                     <section className="text-gray-600 body-font">

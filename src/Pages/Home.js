@@ -22,7 +22,7 @@ const Home = () => {
             <Services />
             <Shipment />
             <Plan />
-            <Map />
+            {/* <Map /> */}
             <Link />
             <Footer />
         </React.Fragment>

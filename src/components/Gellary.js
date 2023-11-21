@@ -6,6 +6,7 @@ const Gellary = () => {
     return (
         <div className='w-full h-full mt-12'>
             <div className='container mx-auto'>
+            <h1 className='product-heading pb-16'>Gellary</h1>
                 <div className='flex justify-between items-center'>
                     <div className='w-[400px] mx-5'>
                         <h1 className='sacrament pb-4'>Our Production & Shipment</h1>

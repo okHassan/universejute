@@ -64,7 +64,7 @@ const Hero = () => {
                 <div className='container mx-auto'>
                     <div className='h-[80vh] pt-[80px] sm:pt-0 flex flex-col items-center justify-center'>
                         <div className='text-center text-white space-y-4 mb-7'>
-                            <h1 className='hero-heading-h1 heading-h1 md:text-6xl leading-[55px] md:leading-[80px] pt-10'>We are one of the leading Jute Goods <br /> Exporter from Bangladesh <br /></h1>
+                            <h1 className='hero-heading-h1 heading-h1 md:text-6xl leading-[55px] md:leading-[80px] pt-10'>We are one of the leading Jute Goods <br /> Exporters from Bangladesh <br /></h1>
                             <p className='hero-bottom-text pt-5 text-[20px] sm:text-[28px]'>We believe in Quality not Quantity</p>
                         </div>
                         <div className='flex gap-8 pt-5 flex-wrap justify-center'>

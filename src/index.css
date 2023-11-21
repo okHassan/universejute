@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -60,6 +61,14 @@ body {
     font-weight: inherit;
     color: #525252;
     text-align: center;
+}
+
+.sub-hero-text-2nd {
+    font-size: 24px;
+    font-weight: bold;
+    color: #525252;
+    text-align: center;
+
 }
 
 .story-text-h1 {
@@ -133,6 +142,18 @@ body {
     font-weight: 800;
     text-align: center;
 }
+.product-heading-sub-heading {
+    color: #54595f;
+    font-size: 55px;
+    line-height: 1em;
+    text-shadow: 0 0 0 rgba(0, 0, 0, .3);
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+    text-wrap: wrap;
+    margin-top: 20px;
+}
 .contact-heading {
     color: #54595f;
     font-family: "Playfair Display", Sans-serif;
@@ -169,8 +190,8 @@ body {
 }
 
 .link-background {
-    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/public/images/linkbac.jpg); */
-    background-color: gray;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/public/images/background-support-cta-scaled.jpg);
+    /* background-color: gray; */
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -329,4 +350,20 @@ body {
         margin-right: 20px;
         line-height: 55px;
     }
+}
+
+
+.times-new-roman {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 35px;
+}
+.times-new-roman-hessian {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 35px;
 }

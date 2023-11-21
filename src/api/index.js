@@ -9,30 +9,26 @@ export const products = [
     {
         id: 1,
         image: '/images/bags/p1.jpeg',
-        tittle: "Binola Three Blue stripes",
-        discription: `Food Grade (As per IJO 98/01 Standard New jute bag size: 44''x26.5'', WT 2.00 Lbs/Bag, 6x7 porter & shot,
-        hammed, Herackle sewm, Three blue stripes.`
+        // tittle: "Binola Three Blue stripes",
+        discription: `Food Grade (As per IJO 98/01 Standard) New jute bag size: 44''x26.5'', WT 2.00 Lbs/Bag, 6x7 porter & shot, hammed, Herackle sewm, Three blue stripes, packing 300 pcs/bale.`
     },
     {
         id: 2,
         image: '/images/bags/p2.jpeg',
-        tittle: "New Jute Bags For Export Only",
-        discription: `Food Grade (As per IJO 98/01 Standard New jute bag size: 44''x26.5'', WT 2.00 Lbs/Bag, 6x7 porter & shot,
-        hammed, Herackle sewm.`
+        // tittle: "New Jute Bags For Export Only",
+        discription: `Food Grade (As per IJO 98/01 Standard) New jute bag size: 44''x26.5'', WT 2.00 Lbs/Bag, 6x7 porter & shot, hammed, Herackle sewm, Plain, packing 300 pcs/bale.`
     },
     {
         id: 3,
         image: '/images/bags/p3.jpeg',
-        tittle: "Binola Three Blue stripes",
-        discription: `Food Grade (As per IJO 98/01 Standard New jute bag size: 44''x26.5'', WT 2.00 Lbs/Bag, 6x7 porter & shot,
-        hammed, Herackle sewm, Three blue stripes.`
+        // tittle: "Binola Three Blue stripes",
+        discription: `Food Grade (As per IJO 98/01 Standard) New jute bag size: 44''x26.5'', WT 2.00 Lbs/Bag, 6x7 porter & shot, hammed, Herackle sewm, Three blue stripes, packing 300 pcs/bale.`
     },
     {
         id: 4,
         image: '/images/bags/p4.jpeg',
-        tittle: "Plain New Jute Bag",
-        discription: `Food Grade (As per IJO 98/01 Standard New jute bag size: 44''x26.5'', WT 2.00 Lbs/Bag, 6x7 porter & shot,
-        hammed, Herackle sewm, Plain.`
+        // tittle: "Plain New Jute Bag",
+        discription: `Food Grade (As per IJO 98/01 Standard) New jute bag size: 44''x26.5'', WT 2.00 Lbs/Bag, 6x7 porter & shot, hammed, Herackle sewm, Plain, packing 300 pcs/bale.`
     },
     {
         id: 5,
@@ -105,8 +101,8 @@ export const Service = [
     {
         id: 1,
         image: '/images/sgs.jpeg',
-        tittle: "Quality Control",
-        discription: 'Pre-shipment inspection by SGS to confirm Goods Quality and Quantity',
+        tittle: "Pre-shipment inspection",
+        discription: `As per buyer's instruction Pre-shipment inspection carried out by SGS or any other international Inspection company to confirm Goods Quality and Quantity.`,
         border: 0
     }
 ]
