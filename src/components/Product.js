@@ -28,7 +28,7 @@ const Product = () => {
                 <div className='flex flex-col gap-10'>
                     <div className='mt-14'>
                         <div className='mb-10'>
-                            <h1 className='product-heading-sub-heading'>Some common specification of Bags:</h1>
+                            <h1 className='product-heading-sub-heading'>Some common specification of Bags for Coffee & Cocoa Beans Packing:</h1>
                             <div className='px-10 md:px-0 flex flex-col flex-wrap gap-y-8 pt-5 md:w-[615px] mx-auto'>
                             {
                                 textArray.map((text, n) => (
