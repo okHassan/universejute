@@ -5,11 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import TailwindUnderDevelopment from './Construction';
+import { HelmetProvider } from 'react-helmet-async';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
-        <TailwindUnderDevelopment />
+        <HelmetProvider>
+            <App />
+        </HelmetProvider>
     </BrowserRouter>
 );
 
