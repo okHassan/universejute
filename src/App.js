@@ -8,17 +8,13 @@ import Contact from './Pages/Contact';
 
 function App() {
 
-    useEffect(() => {
-        alert('This site is under development. Please check back later. Thank you. :)')
-    }, [])
-
     return (
         <React.Fragment>
             <Helmet>
-                <title>Design+Code - Learn to design and code React and Swift apps</title>
+                <title>Universe Jute | Jute Bag Manufacturer</title>
                 <meta
                     name="description"
-                    content="Learn design and code by building real apps with React and Swift. Complete courses about UI design, web and iOS development using Figma, CSS, React Hooks and SwiftUI."
+                    content="Universe Jute Fiber & Bag Corporation is one of the leading exporters of all kinds of jute products, i.e, Jute Sack / Gunny Bags/ Hessian bag/ Hessian cloth/ Shopping bags/ Twine etc"
                 />;
             </Helmet>
             <Routes>
