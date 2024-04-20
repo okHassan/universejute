@@ -5,6 +5,7 @@ import Home from './Pages/Home';
 import { Route, Routes } from 'react-router-dom';
 import Product from './Pages/Product';
 import Contact from './Pages/Contact';
+import Development from './components/Development';
 
 function App() {
 
@@ -18,7 +19,7 @@ function App() {
                 />;
             </Helmet>
             <Routes>
-                <Route path='/' element={<Home />} />
+                <Route path='/' element={<Development />} />
                 <Route path='/product' element={<Product />} />
                 <Route path='/contact' element={<Contact />} />
             </Routes>
