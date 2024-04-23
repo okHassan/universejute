@@ -19,7 +19,7 @@ function App() {
                 />;
             </Helmet>
             <Routes>
-                <Route path='/' element={<Development />} />
+                <Route path='/' element={<Home />} />
                 <Route path='/product' element={<Product />} />
                 <Route path='/contact' element={<Contact />} />
             </Routes>
