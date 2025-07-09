@@ -11,7 +11,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
         <HelmetProvider>
-            <App />
+            {/* <App /> */}
+            <h1 className='text-red-700'>This server is down for regular maintenance. We will back online soon !</h1>
         </HelmetProvider>
     </BrowserRouter>
 );
