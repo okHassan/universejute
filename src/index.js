@@ -12,7 +12,7 @@ root.render(
     <BrowserRouter>
         <HelmetProvider>
             {/* <App /> */}
-            <h1 className='text-red-700'>This server is down for regular maintenance. We will back online soon !</h1>
+            <h1 className='text-red-700 text-2xl text-center'>This server is down for regular maintenance. We will back online soon !</h1>
         </HelmetProvider>
     </BrowserRouter>
 );
