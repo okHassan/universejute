@@ -11,8 +11,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
         <HelmetProvider>
-            {/* <App /> */}
-            <h1 className='text-red-700 text-2xl text-center'>This Site is ready to launch. We will be back online soon!</h1>
+            <App />
+            {/* <h1 className='text-red-700 text-2xl text-center'>This Site is ready to launch. We will be back online soon!</h1> */}
         </HelmetProvider>
     </BrowserRouter>
 );
